@@ -33,13 +33,13 @@ function appairmessage() {
         message.style.display = "flex";
     }, 1000);
     setTimeout(() => {
-        Cmessage.style.transform = 'scale(0)';
+       
     },3000)
 }
 
 function buttonOk() {
     setTimeout(() => {
-        Cmessage.style.transform = "scale(0)";
+        
     }, 1000);
     setTimeout(() => {
         message.style.display = "none";
@@ -120,3 +120,4 @@ buttonL.addEventListener("click", () => {
             message: ("love you Jose - from Queen")
     })
 })
+
